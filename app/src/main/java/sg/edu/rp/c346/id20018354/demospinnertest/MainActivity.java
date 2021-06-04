@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
                  case 1:
                      tv.setText("Spinner Item, No Selected");
                      break;
-
+//               tvChoice.setText(String.format("Spinner choice '%s' selected", spinChoice.getSelectedItem()));
+//               if(position==0){tv.setText("Spinner Item, Yes Selected");}else if (position==1){tv.setText("Spinner Item, No Selected");}
              }
             }
 
